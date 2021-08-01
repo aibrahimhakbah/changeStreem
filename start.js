@@ -2,7 +2,7 @@ const { MongoClient } = require('mongodb')
 const stream = require('stream');
 
 async function main() {
-      //const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/fintech?retryWrites=true&w=majority";
+      const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/fintech?retryWrites=true&w=majority";
     
 
       const client = new MongoClient(uri);
