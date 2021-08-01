@@ -3,8 +3,7 @@ const stream = require('stream');
 
 async function main() {
       //const uri = "mongodb+srv://<username>:<password>@<your-cluster-url>/fintech?retryWrites=true&w=majority";
-      //const uri = "mongodb+srv://cluster0.mwuzi.mongodb.net/fintech?retryWrites=true&w=majority";
-      var uri = "mongodb+srv://ahmed2020:DNSh3ZYhAre1V4x5@cluster0.mwuzi.mongodb.net/fintech";
+    
 
       const client = new MongoClient(uri);
       try {
